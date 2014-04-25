@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM ubuntu:12.04
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update -qq && apt-get install -y make curl -qq
 
